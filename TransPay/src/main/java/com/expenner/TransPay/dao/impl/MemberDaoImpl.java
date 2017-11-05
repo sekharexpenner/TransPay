@@ -19,4 +19,10 @@ public class MemberDaoImpl implements MemberDao {
 		return model;
 	}
 
+	@Override
+	public void test() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

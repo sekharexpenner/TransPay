@@ -34,4 +34,10 @@ public class MemberServiceImpl implements MemberService {
 		return memberFlag;
 	}
 
+	@Override
+	public void test() {
+	System.out.println("HI this test");
+		memberDao.test();
+	}
+
 }

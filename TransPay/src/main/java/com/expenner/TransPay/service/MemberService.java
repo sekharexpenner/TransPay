@@ -6,4 +6,6 @@ public interface MemberService {
 
 	boolean signUp(MemberSignUp memberSignUp);
 
+	void test();
+
 }

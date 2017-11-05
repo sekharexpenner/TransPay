@@ -6,4 +6,6 @@ public interface MemberDao {
 
 	Member save(Member member);
 
+	void test();
+
 }
